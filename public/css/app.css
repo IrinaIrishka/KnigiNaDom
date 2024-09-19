@@ -1,0 +1,159 @@
+body {
+    background: azure;
+    display:grid;
+
+   }
+   .header {
+    display:grid;
+    grid-template-columns: 55% 20% 25%;
+    background: orangered;
+    margin: -8px;
+    margin-top: -8px;
+    height: 80px;
+    
+}
+
+   .title {
+    /* display:flex;
+    margin-left:8%;
+    top:10%;
+    font-family:Tahoma;
+    font-size: 55px; 
+    font-weight: light;
+    font-stretch: extra-expanded; */
+    font-size: 52px;
+    display: flex;
+    /* top: auto; */
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+    justify-content: center;
+}
+
+
+   
+   .divZakaz, .divAuth {
+    
+    text-align: center;
+    font-size: 35px;
+   }
+
+   .kol, .textZakaz, .user, .logout {
+    text-align: center;
+    font-size: 30px;
+   }
+
+
+
+
+
+   .divNotAuth {
+    text-align: center;
+    font-size: 25px;
+    padding:3%;
+
+   }
+
+   a {
+        text-decoration: none;
+        color:darkslateblue;
+        
+   }
+   
+   a:hover {
+    color:darkgray;
+   }
+
+   
+
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1%;
+        background: azure;
+        padding-left:7%;
+        padding-right: 3%;
+        margin:-8px;
+        margin-top:35px;
+       
+    }
+   
+    .booksPic {
+        width: 190px;
+        height: 270px;
+        border-radius: 12px;
+    }
+    .oneBook {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        grid-gap: 2%;
+        background: azure;
+        height: 80%;
+        width: 90%;
+        margin: 1%;
+        padding: 2%;
+
+    }
+    .oneBookPic {
+        width: 270px;
+        height: 370px;
+        border-radius: 10px;
+        margin-top: 18px;
+    }
+    
+h4 {
+    margin: 6px;
+    text-indent: 6px;
+}
+p {
+    text-indent: 24px;
+}
+
+
+
+
+    .createLoginForm {
+        display: flex;
+       margin-top:10%;
+       margin-left: 35%;
+    
+    }
+    
+
+    .createReaderForm {
+        display: flex;
+       margin-top:10%;
+       margin-left: 35%;
+       
+     }
+
+
+    button {
+        background-color: darkgray;
+        border-radius: 10px;
+        height: 27px;
+    }
+
+    button:hover {
+        
+        background-color: orangered;
+        
+    }
+
+
+    .errorForm {
+        color:crimson;
+    }
+
+
+   .orderContent{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1%;
+        background: azure;
+        padding-left:7%;
+        padding-right: 3%;
+        margin:-8px;
+        margin-top:35px;
+   }
